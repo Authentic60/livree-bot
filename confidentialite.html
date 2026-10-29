@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité · Livrée</title>
+<meta name="description" content="Politique de confidentialité du bot Discord Livrée : données enregistrées, durée de conservation, vos droits.">
+<style>
+  :root { --fond:#F6F8FF; --texte:#0A1B3F; --doux:#3A4A6B; --lien:#1F58C4; --carte:#FFFFFF; --bord:#D3DCF2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fond:#0A1B3F; --texte:#F6F8FF; --doux:#BFD0F5; --lien:#8DB2FF; --carte:#112758; --bord:#2A4686; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fond); color:var(--texte); font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:780px; margin:0 auto; padding:32px 20px 72px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .25rem; letter-spacing:-.02em; }
+  h2 { font-size:1.2rem; margin:2rem 0 .4rem; }
+  p, li { margin:.4rem 0; }
+  a { color:var(--lien); }
+  code { background:var(--carte); border:1px solid var(--bord); border-radius:6px; padding:.05em .4em; font-size:.92em; }
+  .meta, nav { color:var(--doux); font-size:.95rem; }
+  nav { margin:.6rem 0 1.4rem; }
+  .resume { background:var(--carte); border:1px solid var(--bord); border-radius:14px; padding:14px 18px; margin:1.2rem 0; }
+  .table { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:560px; font-size:.95rem; }
+  th, td { text-align:left; vertical-align:top; padding:9px 10px; border-bottom:1px solid var(--bord); }
+  th { color:var(--doux); font-weight:600; }
+  hr { border:0; border-top:1px solid var(--bord); margin:3rem 0 2rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Politique de confidentialité</h1>
+<p class="meta">Bot Discord « Livrée » · Dernière mise à jour : 29 octobre 2026</p>
+<nav><a href="conditions.html">Conditions d'utilisation</a> · <a href="#english">English version ↓</a></nav>
+
+<div class="resume">
+  <strong>En bref.</strong> Livrée ne lit pas vos messages, ne vous suit pas et ne revend rien.
+  Elle garde le strict minimum pour fonctionner : le salon choisi par chaque serveur, les photos publiées
+  et les notes données. Vous pouvez effacer toutes vos notes à tout moment avec <code>/oublier_mes_votes</code>.
+</div>
+
+<h2>1. Qui est responsable ?</h2>
+<p>Livrée est un bot Discord gratuit, créé et géré à titre personnel, sans but commercial.
+Pour toute question ou demande concernant vos données : <a href="mailto:CONTACT_ICI">livrees_bot@gmail.com</a>.</p>
+
+<h2>2. Ce que Livrée enregistre</h2>
+<div class="table">
+<table>
+  <thead><tr><th>Donnée</th><th>Pourquoi</th><th>Effacée quand</th></tr></thead>
+  <tbody>
+    <tr><td>Identifiant du serveur et du salon choisi avec <code>/activer</code></td><td>Publier la photo au bon endroit</td><td>Un gestionnaire lance <code>/desactiver</code>, ou le bot quitte le serveur</td></tr>
+    <tr><td>Pour chaque photo publiée : identifiants du serveur, du salon et du message ; titre, auteur, licence et lien de la photo ; date</td><td>Afficher la note et construire le classement du serveur</td><td>Le bot quitte le serveur</td></tr>
+    <tr><td>Pour chaque note : votre identifiant Discord (un simple numéro), le message noté, la note de 1 à 5, la date</td><td>Compter une note par personne, calculer les moyennes et classements</td><td>Vous lancez <code>/oublier_mes_votes</code>, ou le bot quitte le serveur</td></tr>
+    <tr><td>Mémoire des photos déjà publiées (une courte référence de la photo, sans lien avec une personne ni un serveur)</td><td>Ne pas republier la même photo</td><td>Conservée : elle ne contient aucune donnée personnelle</td></tr>
+    <tr><td>Journaux techniques : erreurs, nombre de serveurs, identifiants de serveur ou de salon lors d'un problème d'envoi</td><td>Dépanner le bot</td><td>Conservés temporairement sur le serveur, jamais partagés</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>3. Ce que Livrée n'enregistre pas</h2>
+<ul>
+  <li>Le contenu de vos messages : le bot ne les lit pas et n'utilise aucune des autorisations « privilégiées » de Discord (contenu des messages, liste des membres, présences).</li>
+  <li>Votre pseudo, votre avatar, votre adresse e-mail, vos messages privés, votre adresse IP.</li>
+  <li>Aucune donnée de paiement : le service est gratuit.</li>
+</ul>
+
+<h2>4. À quoi servent ces données</h2>
+<p>Uniquement à faire fonctionner le service que vous utilisez : publier les photos, compter les notes, afficher
+les classements. Pas de publicité, pas de profilage, pas de revente.</p>
+
+<h2>5. Avec qui sont-elles partagées ?</h2>
+<ul>
+  <li><strong>Personne à des fins commerciales.</strong></li>
+  <li><strong>Discord</strong>, la plateforme sur laquelle le bot fonctionne : ses propres règles s'appliquent
+      (<a href="https://discord.com/privacy">discord.com/privacy</a>).</li>
+  <li><strong>OVHcloud</strong>, l'hébergeur chez qui le bot est installé et où les données sont stockées.</li>
+  <li><strong>Wikimedia Commons</strong>, où le bot télécharge les photos. Wikimedia reçoit l'identification technique
+      du bot et son adresse de contact, jamais d'information sur les serveurs ou les personnes qui l'utilisent.</li>
+</ul>
+
+<h2>6. Durée de conservation</h2>
+<p>Les données d'un serveur sont conservées tant que le bot y est installé, et effacées dès qu'il en est retiré.
+Vos notes peuvent être effacées à tout moment avec <code>/oublier_mes_votes</code>. Les messages déjà publiés sur Discord
+restent sous la responsabilité de Discord et du serveur concerné.</p>
+
+<h2>7. Vos droits</h2>
+<p>Conformément au RGPD, vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation
+ou l'opposition à leur traitement, et leur portabilité. Le plus rapide pour effacer vos notes : <code>/oublier_mes_votes</code>.
+Pour toute autre demande, écrivez à <a href="mailto:CONTACT_ICI">livrees_bot@gmail.com</a> en indiquant votre identifiant Discord
+(mode développeur activé, clic droit sur votre profil, « Copier l'identifiant »). Réponse sous un mois.
+Vous pouvez aussi saisir la CNIL : <a href="https://www.cnil.fr">cnil.fr</a>.</p>
+
+<h2>8. Sécurité</h2>
+<p>Les données sont stockées sur un serveur privé dont l'accès est protégé, et le jeton du bot reste secret.
+Aucun système n'étant infaillible, nous ne pouvons pas garantir une sécurité absolue.</p>
+
+<h2>9. Enfants</h2>
+<p>Discord impose un âge minimum (13 ans, davantage dans certains pays). Livrée ne s'adresse pas aux plus jeunes et
+ne collecte pas sciemment de données sur eux. Si vous pensez qu'une note d'un enfant doit être effacée, écrivez-nous.</p>
+
+<h2>10. Modifications</h2>
+<p>Cette politique peut évoluer. La date de mise à jour figure en haut de la page.</p>
+
+<hr>
+
+<section id="english" lang="en">
+<h1>Privacy policy</h1>
+<p class="meta">Discord bot “Livrée” · Last updated: October 29, 2026</p>
+
+<div class="resume">
+  <strong>In short.</strong> Livrée does not read your messages, does not track you and sells nothing.
+  It stores the bare minimum to work: the channel each server picked, the photos it posted, and the ratings people gave.
+  You can erase all your ratings at any time with <code>/oublier_mes_votes</code>.
+</div>
+
+<h2>1. Who is responsible?</h2>
+<p>Livrée is a free Discord bot run as a personal, non-commercial project. For any question or request about your data:
+<a href="mailto:CONTACT_ICI">livrees_bot@gmail.com</a>.</p>
+
+<h2>2. What Livrée stores</h2>
+<ul>
+  <li><strong>Server and channel IDs</strong> chosen with <code>/activer</code>, to post photos in the right place. Deleted on <code>/desactiver</code> or when the bot leaves the server.</li>
+  <li><strong>Posted photos</strong>: server, channel and message IDs; the photo's title, author, license and link; the date. Used to show the rating and build the server's ranking. Deleted when the bot leaves the server.</li>
+  <li><strong>Ratings</strong>: your Discord user ID (a plain number), the rated message, the 1–5 rating and the date. Used to count one rating per person and compute averages and rankings. Deleted when you run <code>/oublier_mes_votes</code>, or when the bot leaves the server.</li>
+  <li><strong>Memory of photos already posted</strong>: a short photo reference with no link to any person or server, so the same photo is not posted twice. Kept, since it contains no personal data.</li>
+  <li><strong>Technical logs</strong>: errors, number of servers, server or channel IDs when a post fails. Kept temporarily on the server, never shared.</li>
+</ul>
+
+<h2>3. What Livrée does not store</h2>
+<p>Message content (the bot does not read messages and uses none of Discord's privileged intents), usernames, avatars,
+e-mail addresses, direct messages, IP addresses, or any payment data (the service is free).</p>
+
+<h2>4. Purpose</h2>
+<p>Only to run the service you use: posting photos, counting ratings, showing rankings. No advertising, no profiling, no resale.</p>
+
+<h2>5. Who receives it?</h2>
+<p>Nobody for commercial purposes. <strong>Discord</strong> runs the platform the bot lives on (<a href="https://discord.com/privacy">discord.com/privacy</a>).
+<strong>OVHcloud</strong> hosts the server where the data is stored. <strong>Wikimedia Commons</strong> supplies the photos: it receives the
+bot's technical identification and contact address, never information about servers or people using the bot.</p>
+
+<h2>6. Retention</h2>
+<p>A server's data is kept while the bot is installed there and erased as soon as it is removed. Your ratings can be erased
+at any time with <code>/oublier_mes_votes</code>. Messages already posted on Discord remain under the responsibility of Discord and the server concerned.</p>
+
+<h2>7. Your rights</h2>
+<p>Under the GDPR you may request access, rectification, erasure, restriction, objection and portability. The fastest way to erase your ratings is
+<code>/oublier_mes_votes</code>. For anything else, write to <a href="mailto:CONTACT_ICI">livrees_bot@gmail.com</a> with your Discord user ID.
+We reply within one month. You may also lodge a complaint with your data protection authority (in France, the <a href="https://www.cnil.fr">CNIL</a>).</p>
+
+<h2>8. Security</h2>
+<p>Data is stored on a private server with protected access and the bot token is kept secret. No system is perfectly secure, so we cannot guarantee absolute security.</p>
+
+<h2>9. Children</h2>
+<p>Discord sets a minimum age (13, higher in some countries). Livrée is not aimed at younger users and does not knowingly collect their data. If you believe a child's rating should be erased, contact us.</p>
+
+<h2>10. Changes</h2>
+<p>This policy may change. The update date is shown at the top of the page.</p>
+
+<nav><a href="conditions.html">Terms of service (French and English)</a></nav>
+</section>
+
+</main>
+</body>
+</html>
